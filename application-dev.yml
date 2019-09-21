@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: lanhuigu-config-dev
-server:
-  port: 8100
