@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: lanhuigu-config-prod
+server:
+  port: 9005
