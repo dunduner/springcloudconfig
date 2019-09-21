@@ -1,5 +1,5 @@
 spring:
   application:
-    name: order-dev-dongtaixiugai
+    name: order-dev
 server:
   port: 9001
