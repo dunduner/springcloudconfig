@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: dynamiczuul   #最后读的是github上的  dynamiczuul-dev.yml  只有路由放在git上动态路由
+    #处理中文乱码
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
 #商品服务路由
 zuul:
   routes:
