@@ -23,3 +23,11 @@ zuul:
   prefix: /api     #前缀
   retryable: true  #开启路由重试
   ignored-services: "*"  #zuul默认为所有服务开启默认的路由，为了服务安全，此处关闭  *就是忽略所有服务
+
+# 开放监控端口
+management:
+  endpoints:
+    web:
+      exposure:
+        # 配置刷新地址：POST http://127.0.0.1:9000/actuator/refresh
+        include: "*"
