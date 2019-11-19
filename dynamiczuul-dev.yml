@@ -8,7 +8,7 @@ zuul:
   routes:
     #路由服务2--product-server
     product-server:
-      path: /new/product/gateway/**
+      path: /product/gateway/**
       #普通路由
       #url: http://localhost:2100/
       #面向服务
