@@ -1,9 +1,5 @@
 server:
-  port: 19002   #9001
-spring:
-  application:
-    name: zuul-19002
-    
+  port: 19002   #9001  
 #商品服务路由
 zuul:
   routes:
