@@ -1,8 +1,8 @@
 server:
-  port: 9001   #9001
+  port: 19001   #9001
 spring:
   application:
-    name: zuul-9001
+    name: zuul-19001
   #处理中文乱码
   http:
     encoding:
