@@ -1,5 +1,5 @@
 server:
-  port: 9002        #  9001
+  port: 9001       #  9001
 spring:
   application:
     name: dynamiczuul   #最后读的是github上的  dynamiczuul-dev.yml  只有路由放在git上动态路由
