@@ -37,4 +37,4 @@ management:
         # 配置刷新地址：POST http://127.0.0.1:9000/actuator/refresh
         include: "*"
 webconfig:
-  zhangning: zhanghaining
+  nname: zhanghaining
