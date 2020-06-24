@@ -1,8 +1,4 @@
-server:
-  port: 19001
-spring:
-  application:
-    name: dynamiczuul
+
 #商品服务路由
 zuul:
   routes:
