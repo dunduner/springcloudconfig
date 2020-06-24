@@ -1,4 +1,8 @@
-
+server:
+  port: 9001 #会以这个为主，覆盖到项目中的
+spring:
+  application:
+    name: dynamiczuul
 #商品服务路由
 zuul:
   routes:
