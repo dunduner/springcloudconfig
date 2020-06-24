@@ -1,14 +1,3 @@
-server:
-  port: 9001       #  9001
-spring:
-  application:
-    name: dynamiczuul   #最后读的是github上的  dynamiczuul-dev.yml  只有路由放在git上动态路由
-    #处理中文乱码
-  http:
-    encoding:
-      charset: utf-8
-      enabled: true
-      force: true
 #商品服务路由
 zuul:
   routes:
@@ -37,4 +26,4 @@ management:
         # 配置刷新地址：POST http://127.0.0.1:9000/actuator/refresh
         include: "*"
 webconfig:
-  nname: zhanghaining-xiugai-test9999999999
+  nname: zhanghaining-007
