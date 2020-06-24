@@ -1,5 +1,5 @@
 spring:
   application:
-    name: lanhuigu-config-dev
+    name: 1lanhuigu-config-dev
 server:
   port: 9005
