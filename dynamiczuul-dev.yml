@@ -1,5 +1,5 @@
 server:
-  port: 19001       #  9001
+  port: 9001       #  9001
 spring:
   application:
     name: dynamiczuul   #最后读的是github上的  dynamiczuul-dev.yml  只有路由放在git上动态路由
@@ -37,4 +37,4 @@ management:
         # 配置刷新地址：POST http://127.0.0.1:9000/actuator/refresh
         include: "*"
 webconfig:
-  nname: zhanghaining-xiugai-test007
+  nname: zhanghaining-xiugai-test9999999999
